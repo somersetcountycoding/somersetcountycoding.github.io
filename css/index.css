@@ -33,19 +33,75 @@
     margin: auto;
     /* border: 5px solid red; */
     align-content: center;
-    width: 70%;
-    /* padding: 10px; */
+    /* width: 50%; */
 }
 
 #centeringText {
     text-align: center;
 }
 
-.btn-primary, .btn-primary:active, .btn-primary:visited {
+#centeringTextTitle {
+    text-align: center;
+    font-size: 8vh;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
     background-color: #3090BF !important;
 }
 
 .btn-primary:hover {
     background-color: #267399 !important;
+
+}
+
+#gpsButton {
+    margin: auto;
+    /* border: 5px solid green; */
+    align-content: center;
+    width: 17%;
+}
+
+.mobileHide {
+    display: inline;
+}
+
+#cardWidth {
+    width: 100%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .mobileHide {
+        display: none;
+    }
+
+    #centeringTextTitle {
+        text-align: center;
+        font-size: 4vh;
+        color: white;
+        padding-top: 50px;
+    }
+
+    .col-sm {
+        width: 33% !important;
+        /* height: 100vh !important; */
+        /* border: 5px solid green !important; */
+        align-content: center !important;
+    }
+    
+    .card-title {
+        font-size: 12px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .card-text {
+        font-size: 12px !important;
+    }
+
+
 
 }
