@@ -325,11 +325,11 @@ blockquote p {
 .logo {
   display: block;
   float: left;
-  width: 104px;
-  height: 46px;
+  width: 70px;
+  height: 70px;
   text-indent: -9999px;
-  background: url(images/logo.svg) no-repeat;
-  background-size: 104px 46px;
+  background: url(images/branding/logo.png) no-repeat;
+  background-size: 70px 70px;
 }
 
 .logo:hover, .logo:focus {
@@ -511,7 +511,7 @@ blockquote p {
 .parallax-section {
   z-index: -1;
   clear: both;
-  background-image: url('images/home.jpg');
+  background-image: url('images/main.jpg');
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center center;
