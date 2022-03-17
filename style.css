@@ -549,10 +549,10 @@ blockquote p {
 .parallax-section {
   z-index: -1;
   clear: both;
-  background-image: url('/images/main.jpg');
-  background-repeat: repeat;
+  background-image: url('/images/editedhome.png');
+  background-repeat: space;
   background-attachment: fixed;
-  background-position: center center;
+  /* background-position: center center; */
 }
 
 .parallax2 {
@@ -595,7 +595,7 @@ blockquote p {
 
 .parallax-section .content h2,
 .content-header h2 {
-  font-size: 2.5em;
+  font-size: 3.5em;
 }
 
 .parallax-section .content p,
