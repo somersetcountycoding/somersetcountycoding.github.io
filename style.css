@@ -203,11 +203,28 @@ blockquote p {
   background: #3090BF;
 }
 
+.btnContact {
+  position: relative;
+  display: inline-block;
+  padding: .5em .5em;
+  color: #fff !important;
+  font-size: 1.6em;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: white;
+}
+
+.btnContact:hover {
+  color: #267399;
+  background: #fff;
+}
+
 .btn:hover,
 .btn:focus,
 .btn-current {
-  color: #fff;
-  background: #267399;
+  color: #267399;
+  background: #fff;
 }
 
 .btn:hover,
@@ -749,6 +766,7 @@ blockquote p {
   position: absolute;
   left: 20px;
   bottom: 20px;
+  right: 20px;
   text-align: left;
   opacity: 0;
   transform: scale(1.3);
