@@ -72,6 +72,21 @@ textarea,
   transition: all .12s linear;
 }
 
+/* @font-face {
+  font-family: movement;
+  src: url(fonts/Movement.ttf);
+} */
+
+/* @font-face {
+  font-family: gameOver;
+  src: url(fonts/game_over.ttf);
+} */
+
+@font-face {
+  font-family: kemco;
+  src: url(fonts/kemco.ttf);
+}
+
 body {
   font-size: 1em;
   line-height: 1.7em;
@@ -121,6 +136,18 @@ h1 {
 h2 {
   font-size: 2.8em;
   line-height: .9em;
+}
+
+#movementFont {
+  font-family: movement;
+}
+
+#gameoverFont{
+  font-family: gameOver;
+}
+
+#kemcoFont{
+  font-family: kemco;
 }
 
 h3 {
@@ -728,7 +755,7 @@ blockquote p {
   /* border: 2px solid red; */
   font-size: 2.5em;
   line-height: 30px;
-  
+
   position: absolute;
   bottom: 100%;
   left: 50%;
