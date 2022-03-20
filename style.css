@@ -72,16 +72,6 @@ textarea,
   transition: all .12s linear;
 }
 
-/* @font-face {
-  font-family: movement;
-  src: url(fonts/Movement.ttf);
-} */
-
-/* @font-face {
-  font-family: gameOver;
-  src: url(fonts/game_over.ttf);
-} */
-
 @font-face {
   font-family: kemco;
   src: url(fonts/kemco.ttf);
@@ -136,14 +126,6 @@ h1 {
 h2 {
   font-size: 2.8em;
   line-height: .9em;
-}
-
-#movementFont {
-  font-family: movement;
-}
-
-#gameoverFont{
-  font-family: gameOver;
 }
 
 #kemcoFont{
@@ -210,6 +192,26 @@ blockquote p {
 .curveGrey {
   fill: #ECF0F1;
   stroke: #ECF0F1;
+}
+
+.mobileHide {
+  display: inline;
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 500px) {
+  .mobileHide {
+      display: none;
+  }
+}
+
+.computerHide {
+  display: inline;
+}
+
+@media only screen and (min-device-width : 501px) and (max-device-width : 4000px) {
+  .computerHide {
+      display: none;
+  }
 }
 
 /* *********************************************************
