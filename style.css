@@ -68,6 +68,7 @@ h6,
 .btn,
 .filters .filter {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 
 h1,
@@ -124,6 +125,15 @@ blockquote p {
   margin-bottom: 0 !important;
 }
 
+.client-carousel-item p{
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.client-carousel-item h4{
+  padding-right: 10rem;
+  text-align: right;
+}
 .pleft-25 {
   padding-left: 25px;
 }
@@ -374,11 +384,11 @@ blockquote p {
 .logo {
   display: block;
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   text-indent: -9999px;
   background: url(images/branding/logo.png) no-repeat;
-  background-size: 70px 70px;
+  background-size: 40px 40px;
 }
 
 .logo:hover,
@@ -402,7 +412,12 @@ blockquote p {
 }
 
 .header-home .navigation a {
-  color: #fff;
+  color: white;
+
+}
+
+.navigation .page-link{
+  font-size: 1rem;
 }
 
 .top-slider {
