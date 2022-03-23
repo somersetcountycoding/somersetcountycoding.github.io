@@ -42,7 +42,7 @@
 
 #centeringTextTitle {
     text-align: center;
-    font-size: 8vh;
+    font-size: 3rem;
     color: white;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -80,7 +80,7 @@
 
     #centeringTextTitle {
         text-align: center;
-        font-size: 4vh;
+        font-size: 2rem;
         color: white;
         padding-top: 50px;
     }
