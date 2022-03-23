@@ -99,6 +99,7 @@ h2 {
 
 #kemcoFont{
   font-family: kemco;
+  line-height: 2.5rem;
 }
 
 h3 {
@@ -1005,8 +1006,6 @@ blockquote p {
   padding: 0;
   list-style: none;
 }
-
-.options li:last-child {}
 
 #price-tables:after {
   display: table;
