@@ -21,6 +21,7 @@
     <meta name="msapplication-config" content="/images/branding/browserconfig.xml">
     <!-- CSS -->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/gpsButton.css">
     <link href="css/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -28,7 +29,7 @@
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet'
         type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <style>
         body {
             background-image: url('images/mountainBackground.png');
@@ -36,6 +37,36 @@
             background-size: cover;
         }
     </style>
+
+<script>
+    const CONFIGURATION = {
+      "locations": [
+        {"title":"Code Ninjas Hillsborough - Montgomery","address1":"649 US-206 Suite 1C","address2":"Hillsborough Township, NJ 08844, USA","coords":{"lat":40.49904592296462,"lng":-74.6450222509262},"placeId":"ChIJaUgdsqrrw4kR0NiSvXqZ9pk"},
+        {"title":"Code Ninjas Green Brook","address1":"215 US-22 E","address2":"Green Brook Township, NJ 08812, USA","coords":{"lat":40.5989134951391,"lng":-74.48360443558197},"placeId":"ChIJq3CJCzu5w4kRUZx-Y-Tkpqg"},
+        {"title":"338 US-22","address1":"338 US-22","address2":"Bridgewater Township, NJ 08807, USA","coords":{"lat":40.59482385237243,"lng":-74.67097259496765},"placeId":"Ei4zMzggVVMtMjIsIEJyaWRnZXdhdGVyIFRvd25zaGlwLCBOSiAwODgwNywgVVNBIlESTwo0CjIJcRyk-ZaUw4kRT0HifqcraxIaHgsQ7sHuoQEaFAoSCX3OqtMTlcOJEV6KKd-bmteuDBDSAioUChIJg71_qp7MyokR53dbandiqc0"}
+      ],
+      "mapOptions": {"center":{"lat":38.0,"lng":-100.0},"fullscreenControl":true,"mapTypeControl":false,"streetViewControl":false,"zoom":4,"zoomControl":true,"maxZoom":17},
+      "mapsApiKey": "AIzaSyD14Gvo0zdGUSRW_0To-wnFvDmbsURunHo",
+      "capabilities": {"input":true,"autocomplete":true,"directions":false,"distanceMatrix":true,"details":false}
+    };
+
+    function initMap() {
+      new LocatorPlus(CONFIGURATION);
+    }
+  </script>
+  <script id="locator-result-items-tmpl" type="text/x-handlebars-template">
+    {{#each locations}}
+      <li class="location-result" data-location-index="{{index}}">
+        <button class="select-location">
+          <h2 class="name">{{title}}</h2>
+        </button>
+        <div class="address">{{address1}}<br>{{address2}}</div>
+        {{#if travelDistanceText}}
+          <div class="distance">{{travelDistanceText}}</div>
+        {{/if}}
+      </li>
+    {{/each}}
+  </script>
 
 </head>
 
@@ -119,6 +150,8 @@
 <script src="js/lightcase.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/aosinit.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD14Gvo0zdGUSRW_0To-wnFvDmbsURunHo&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_locatorplus_v4_cABD" async defer></script><script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/handlebars/4.7.7/handlebars.min.js"></script>
 
 </body>
 
