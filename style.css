@@ -181,6 +181,11 @@ blockquote p {
   .mobileHide {
       display: none;
   }
+
+  .work-info h4 {
+    line-height: 100px;
+  }
+
 }
 
 .computerHide {
