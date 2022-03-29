@@ -45,7 +45,13 @@
 }
 
 .logoImage {
-    width: 50%;
+    width: 60%;
+    height: 10rem;
+}
+
+.tagline {
+    color: white;
+    font-size: 2rem;
 }
 
 #centeringTextTitle {
