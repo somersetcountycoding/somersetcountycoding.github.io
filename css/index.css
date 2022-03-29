@@ -40,6 +40,14 @@
     text-align: center;
 }
 
+.logoImageDiv {
+    text-align: center;
+}
+
+.logoImage {
+    width: 50%;
+}
+
 #centeringTextTitle {
     text-align: center;
     font-size: 3rem;
