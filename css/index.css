@@ -40,6 +40,19 @@
     text-align: center;
 }
 
+.logoImageDiv {
+    text-align: center;
+}
+
+.logoImage {
+    width: 50%;
+}
+
+.tagline {
+    color: white;
+    font-size: 2rem;
+}
+
 #centeringTextTitle {
     text-align: center;
     font-size: 3rem;
@@ -78,9 +91,17 @@
         display: none;
     }
 
+    .logoImage {
+        width: 90%;
+    }
+
+    .tagline {
+        font-size: 1.2rem;
+    }
+
     #centeringTextTitle {
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: white;
         padding-top: 50px;
     }
