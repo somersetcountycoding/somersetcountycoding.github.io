@@ -38,36 +38,6 @@
         }
     </style>
 
-<!-- <script>
-    const CONFIGURATION = {
-      "locations": [
-        {"title":"Code Ninjas Hillsborough - Montgomery","address1":"649 US-206 Suite 1C","address2":"Hillsborough Township, NJ 08844, USA","coords":{"lat":40.49904592296462,"lng":-74.6450222509262},"placeId":"ChIJaUgdsqrrw4kR0NiSvXqZ9pk"},
-        {"title":"Code Ninjas Green Brook","address1":"215 US-22 E","address2":"Green Brook Township, NJ 08812, USA","coords":{"lat":40.5989134951391,"lng":-74.48360443558197},"placeId":"ChIJq3CJCzu5w4kRUZx-Y-Tkpqg"},
-        {"title":"338 US-22","address1":"338 US-22","address2":"Bridgewater Township, NJ 08807, USA","coords":{"lat":40.59482385237243,"lng":-74.67097259496765},"placeId":"Ei4zMzggVVMtMjIsIEJyaWRnZXdhdGVyIFRvd25zaGlwLCBOSiAwODgwNywgVVNBIlESTwo0CjIJcRyk-ZaUw4kRT0HifqcraxIaHgsQ7sHuoQEaFAoSCX3OqtMTlcOJEV6KKd-bmteuDBDSAioUChIJg71_qp7MyokR53dbandiqc0"}
-      ],
-      "mapOptions": {"center":{"lat":38.0,"lng":-100.0},"fullscreenControl":true,"mapTypeControl":false,"streetViewControl":false,"zoom":4,"zoomControl":true,"maxZoom":17},
-      "mapsApiKey": "AIzaSyD14Gvo0zdGUSRW_0To-wnFvDmbsURunHo",
-      "capabilities": {"input":true,"autocomplete":true,"directions":false,"distanceMatrix":true,"details":false}
-    };
-
-    function initMap() {
-      new LocatorPlus(CONFIGURATION);
-    }
-  </script>
-  <script id="locator-result-items-tmpl" type="text/x-handlebars-template">
-    {{#each locations}}
-      <li class="location-result" data-location-index="{{index}}">
-        <button class="select-location">
-          <h2 class="name">{{title}}</h2>
-        </button>
-        <div class="address">{{address1}}<br>{{address2}}</div>
-        {{#if travelDistanceText}}
-          <div class="distance">{{travelDistanceText}}</div>
-        {{/if}}
-      </li>
-    {{/each}}
-  </script> -->
-
 </head>
 
 <div class="logoImageDiv">
@@ -76,80 +46,82 @@
 </div>
 
 <h1 id="centeringTextTitle">Choose Your Nearest Center</h1>
-
-<!-- <div id="gpsButton">
-
-    <div class="d-grid"><a href="#" class="btn btn-primary" onclick="maps()">Automatically find closest
-            center</a>
-    </div>
-
-</div> -->
-
 <br>
 
 <div class="container">
     <div class="row">
-        <a href="hillsborough" style="color:black; text-decoration:none;">
-        <div class="col-sm" style="padding-bottom:30px">
-            <div class="card" id="cardWidth">
-                 <!-- <img src="images/branding/map/HM_map.png" alt="Hillsborough - Montgomery" class="card-img-top">  -->
-                 <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.9277286842494!2d-74.6469437848442!3d40.49898115855733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3ebaab21d4869%3A0x99f6997abd92d8d0!2sCode%20Ninjas%20Hillsborough%20-%20Montgomery!5e0!3m2!1sen!2sus!4v1658678268622!5m2!1sen!2sus" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="card-body">
-                    <h5 id="centeringText" class="card-title">Hillsborough</h5>
-                    <p id="centeringText" class="card-text">649 Rt. 206, Hillsborough, NJ 08844</p>
-                    <div class="mobileHide">
-                        <p id="centeringText" style="font-size: 2vh">Located in the Hillsborough Centre Plaza, near
-                            Starbucks, Chipotle, and
-                            Patidar.</p>
-                    </div>
-                    <br class="mobileHide">
-                    <div class="d-grid"><a href="hillsborough" class="btn btn-primary">Visit Page</a></div>
-                </div>
-            </div>
-        </div>
-    </a>
-
-        <div class="col-sm" style="padding-bottom:30px">
-            <a href="greenbrook" style="color:black; text-decoration:none;">
-            <div class="card" id="cardWidth">
-                <!-- <img src="images/branding/map/GB_map.png" class="card-img-top" alt="Green Brook" /> -->
-                <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.4056323095638!2d-74.48579848484127!3d40.598873252465935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b93b0b8970ab%3A0xa8a6e4e4637e9c51!2sCode%20Ninjas!5e0!3m2!1sen!2sus!4v1658678922878!5m2!1sen!2sus" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                <div class="card-body">
-                    <h5 id="centeringText" class="card-title">Green Brook</h5>
-                    <p id="centeringText" class="card-text">215 US-22, Green Brook, NJ 08812</p>
-                    <div class="mobileHide">
-                        <p id="centeringText" style="font-size: 2vh">Located in the plaza with Duck Donuts, Gatsby
-                            Salon,
-                            and Dollar Tree.</p>
-                    </div>
-                    <br class="mobileHide">
-                    <div class="d-grid"><a href="greenbrook" class="btn btn-primary">Visit Page</a></div>
-                </div>
-            </div>
-            </a>
-        </div>
 
         <div class="col-sm" style="padding-bottom:30px">
             <a href="bridgewater" style="color:black; text-decoration:none;">
-            <div class="card" id="cardWidth">
-                <!-- <img src="images/branding/map/BW_map.png" class="card-img-top" alt="Bridgewater" /> -->
-                <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.544025829489!2d-74.67624047225794!3d40.595819186599144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c395aab279158d%3A0x1b711451841d3b6e!2sCode%20Ninjas%20Bridgewater!5e0!3m2!1sen!2sus!4v1658678656974!5m2!1sen!2sus" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="card-body">
-                    <!-- <h5 id="centeringText" class="card-title">Bridgewater <span style="color: #ff0000">(Opening Soon!)</span></h5> -->
-                    <h5 id="centeringText" class="card-title">Bridgewater</h5>
-                    <p id="centeringText" class="card-text">338 US-22, Bridgewater, NJ 08807</p>
-                    <div class="mobileHide">
-                        <p id="centeringText" style="font-size: 2vh">Located in the plaza with Dunkin' Donuts, Kiddie
-                            Academy, and JEI Learning
-                            Center.</p>
+                <div class="card" id="cardWidth">
+                    <!-- <img src="images/branding/map/BW_map.png" class="card-img-top" alt="Bridgewater" /> -->
+                    <iframe class="card-img-top"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.544025829489!2d-74.67624047225794!3d40.595819186599144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c395aab279158d%3A0x1b711451841d3b6e!2sCode%20Ninjas%20Bridgewater!5e0!3m2!1sen!2sus!4v1658678656974!5m2!1sen!2sus"
+                        height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="card-body">
+                        <!-- <h5 id="centeringText" class="card-title">Bridgewater <span style="color: #ff0000">(Opening Soon!)</span></h5> -->
+                        <h5 id="centeringText" class="card-title">Bridgewater</h5>
+                        <p id="centeringText" class="card-text">338 US-22, Bridgewater, NJ 08807</p>
+                        <div class="mobileHide">
+                            <p id="centeringText" style="font-size: 2vh">Located in the plaza with Dunkin' Donuts,
+                                Kiddie
+                                Academy, and JEI Learning
+                                Center.</p>
+                        </div>
+                        <br class="mobileHide">
+                        <div class="d-grid"><a href="bridgewater" class="btn btn-primary">Visit Page</a></div>
                     </div>
-                    <br class="mobileHide">
-                    <div class="d-grid"><a href="bridgewater" class="btn btn-primary">Visit Page</a></div>
                 </div>
-            </div>
             </a>
         </div>
+
+        <div class="col-sm" style="padding-bottom:30px">
+            <a href="greenbrook" style="color:black; text-decoration:none;">
+                <div class="card" id="cardWidth">
+                    <!-- <img src="images/branding/map/GB_map.png" class="card-img-top" alt="Green Brook" /> -->
+                    <iframe class="card-img-top"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.4056323095638!2d-74.48579848484127!3d40.598873252465935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b93b0b8970ab%3A0xa8a6e4e4637e9c51!2sCode%20Ninjas!5e0!3m2!1sen!2sus!4v1658678922878!5m2!1sen!2sus"
+                        height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="card-body">
+                        <h5 id="centeringText" class="card-title">Green Brook</h5>
+                        <p id="centeringText" class="card-text">215 US-22, Green Brook, NJ 08812</p>
+                        <div class="mobileHide">
+                            <p id="centeringText" style="font-size: 2vh">Located in the plaza with Duck Donuts, Gatsby
+                                Salon,
+                                and Dollar Tree.</p>
+                        </div>
+                        <br class="mobileHide">
+                        <div class="d-grid"><a href="greenbrook" class="btn btn-primary">Visit Page</a></div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-sm" style="padding-bottom:30px">
+            <a href="hillsborough" style="color:black; text-decoration:none;">
+                <div class="card" id="cardWidth">
+                    <!-- <img src="images/branding/map/HM_map.png" alt="Hillsborough - Montgomery" class="card-img-top">  -->
+                    <iframe class="card-img-top"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.9277286842494!2d-74.6469437848442!3d40.49898115855733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3ebaab21d4869%3A0x99f6997abd92d8d0!2sCode%20Ninjas%20Hillsborough%20-%20Montgomery!5e0!3m2!1sen!2sus!4v1658678268622!5m2!1sen!2sus"
+                        height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="card-body">
+                        <h5 id="centeringText" class="card-title">Hillsborough</h5>
+                        <p id="centeringText" class="card-text">649 Rt. 206, Hillsborough, NJ 08844</p>
+                        <div class="mobileHide">
+                            <p id="centeringText" style="font-size: 2vh">Located in the Hillsborough Centre Plaza, near
+                                Starbucks, Chipotle, and
+                                Patidar.</p>
+                        </div>
+                        <br class="mobileHide">
+                        <div class="d-grid"><a href="hillsborough" class="btn btn-primary">Visit Page</a></div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
     </div>
 </div>
 
@@ -165,7 +137,9 @@
 <script src="js/lightcase.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/aosinit.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD14Gvo0zdGUSRW_0To-wnFvDmbsURunHo&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_locatorplus_v4_cABD" async defer></script>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD14Gvo0zdGUSRW_0To-wnFvDmbsURunHo&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_locatorplus_v4_cABD"
+    async defer></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/handlebars/4.7.7/handlebars.min.js"></script>
 
