@@ -590,6 +590,15 @@ blockquote p {
   /* background-position: center center; */
 }
 
+.parallax-sectionFLL {
+  z-index: -1;
+  clear: both;
+  background-image: url('/images/FLLbanner.png');
+  background-repeat: space;
+  background-attachment: fixed;
+  /* background-position: center center; */
+}
+
 .parallax2 {
   background-image: url('images/parallax2.jpg');
 }
