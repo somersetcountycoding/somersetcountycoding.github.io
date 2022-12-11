@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Code Ninjas Somerset County</title>
-    <meta name="description" content="Code Ninjas of Somerset County · Home" />
+    <title>Code Ninjas Bridgewater</title>
+    <meta name="Description" content="Code Ninjas of Somerset County · Home" />
     <meta name="url" content="https://somersetcountycoding.com/">
     <meta name="theme-color" content="#3090BF">
     <meta property="og:image" content="https://somersetcountycoding.com/images/branding/logo.png" />
@@ -20,128 +20,1334 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/images/branding/browserconfig.xml">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/gpsButton.css">
-    <link href="css/aos.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/simplegrid.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/lightcase.css">
+    <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="js/owl-carousel/owl.transitions.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <!-- Google Fonts -->
+
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet'
         type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <style>
-        body {
-            background-image: url('images/mountainBackground.png');
-            /*'images/editedhome.png');*/
-            background-size: cover;
-        }
-    </style>
-
 </head>
 
-<div class="logoImageDiv">
-    <img src="images/branding/somersetLogo.png" alt="Code Ninjas Logo" class="logoImage">
-    <h2 class="tagline">We Make Coding Fun!</h2>
-</div>
-
-<h1 id="centeringTextTitle">Choose Your Nearest Center</h1>
-<br>
-
-<div class="container">
-    <div class="row">
-
-        <div class="col-sm" style="padding-bottom:30px">
-            <a href="bridgewater" style="color:black; text-decoration:none;">
-                <div class="card" id="cardWidth">
-                    <!-- <img src="images/branding/map/BW_map.png" class="card-img-top" alt="Bridgewater" /> -->
-                    <iframe class="card-img-top"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.544025829489!2d-74.67624047225794!3d40.595819186599144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c395aab279158d%3A0x1b711451841d3b6e!2sCode%20Ninjas%20Bridgewater!5e0!3m2!1sen!2sus!4v1658678656974!5m2!1sen!2sus"
-                        height="300px" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <div class="card-body">
-                        <!-- <h5 id="centeringText" class="card-title">Bridgewater <span style="color: #ff0000">(Opening Soon!)</span></h5> -->
-                        <h5 id="centeringText" class="card-title">Bridgewater</h5>
-                        <p id="centeringText" class="card-text">338 US-22, Bridgewater, NJ 08807</p>
-                        <div class="mobileHide">
-                            <p id="centeringText" style="font-size: 2vh">Located in the plaza with Dunkin' Donuts
-                                and JEI Learning
-                                Center.</p>
-                        </div>
-                        <br class="mobileHide">
-                        <div class="d-grid"><a href="bridgewater" class="btn btn-primary">Visit Page</a></div>
-                    </div>
+<body id="home">
+    <!-- Header -->
+    <header id="top-header" class="header-home">
+        <div class="grid">
+            <div class="col-1-1" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1000">
+                <div class="content">
+                    <div class="logo-wrap"><a href="#home">
+                            <p class="logo">Code Ninjas Bridgewater</p>
+                    </div></a>
+                    <nav class="navigation">
+                        <input type="checkbox" id="nav-button">
+                        <label for="nav-button" onclick></label>
+                        <ul class="nav-container">
+                            <li><a href="#home" class="page-link current">Home</a></li>
+                            <li><a href="#work" class="page-link">Programs</a></li>
+                            <li><a href="#pricing" class="page-link">Pricing</a></li>
+                            <li><a href="#sponsorships" class="page-link">Sponsorships</a></li>
+                            <li><a href="#promotions" class="page-link">Promotions</a></li>
+                            <li><a href="#contact" class="page-link">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
-            </a>
+            </div>
         </div>
+    </header>
+    <!-- End Header -->
 
-        <div class="col-sm" style="padding-bottom:30px">
-            <a href="greenbrook" style="color:black; text-decoration:none;">
-                <div class="card" id="cardWidth">
-                    <!-- <img src="images/branding/map/GB_map.png" class="card-img-top" alt="Green Brook" /> -->
-                    <iframe class="card-img-top"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.4056323095638!2d-74.48579848484127!3d40.598873252465935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b93b0b8970ab%3A0xa8a6e4e4637e9c51!2sCode%20Ninjas!5e0!3m2!1sen!2sus!4v1658678922878!5m2!1sen!2sus"
-                        height="300px" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <div class="card-body">
-                        <h5 id="centeringText" class="card-title">Green Brook</h5>
-                        <p id="centeringText" class="card-text">215 US-22, Green Brook, NJ 08812</p>
-                        <div class="mobileHide">
-                            <p id="centeringText" style="font-size: 2vh">Located in the plaza with Duck Donuts, Gatsby
-                                Salon,
-                                and Dollar Tree.</p>
-                        </div>
-                        <br class="mobileHide">
-                        <div class="d-grid"><a href="greenbrook" class="btn btn-primary">Visit Page</a></div>
-                    </div>
+    <!-- Parallax Section -->
+    <div class="parallax-section parallax1">
+        <div class="grid grid-pad">
+            <div class="col-1-1">
+                <div class="content content-header">
+                    <h2 data-aos="fade-up" data-aos-duration="1000">Code Ninjas<br>Bridgewater</h2>
+                    <p id="kemcoFont" style="font-size: 2.5em" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="300">We make coding fun!</p>
+                    <!-- <a data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" target="_blank" class="btn btn-ghost" href="#">Request Info</a> -->
                 </div>
-            </a>
+            </div>
         </div>
-
-        <!-- <div class="col-sm" style="padding-bottom:30px">
-            <a href="hillsborough" style="color:black; text-decoration:none;">
-                <div class="card" id="cardWidth"> -->
-        <!-- <img src="images/branding/map/HM_map.png" alt="Hillsborough - Montgomery" class="card-img-top">  -->
-        <!-- <iframe class="card-img-top"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.9277286842494!2d-74.6469437848442!3d40.49898115855733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3ebaab21d4869%3A0x99f6997abd92d8d0!2sCode%20Ninjas%20Hillsborough%20-%20Montgomery!5e0!3m2!1sen!2sus!4v1658678268622!5m2!1sen!2sus"
-                        height="300px" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <div class="card-body">
-                        <h5 id="centeringText" class="card-title">Hillsborough</h5>
-                        <p id="centeringText" class="card-text">649 Rt. 206, Hillsborough, NJ 08844</p>
-                        <div class="mobileHide">
-                            <p id="centeringText" style="font-size: 2vh">Located in the Hillsborough Centre Plaza, near
-                                Starbucks, Chipotle, and
-                                Patidar.</p>
-                        </div>
-                        <br class="mobileHide">
-                        <div class="d-grid"><a href="hillsborough" class="btn btn-primary">Visit Page</a></div>
-                    </div>
-                </div>
-            </a>
-        </div> -->
-
     </div>
-</div>
+    <!-- End Parallax Section -->
 
-<script src="js/jquery.js"></script>
-<script src="js/main.js"></script>
-<script src="js/mixitup.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/jquery.nav.js"></script>
-<script src="js/owl-carousel/owl.carousel.min.js"></script>
-<!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
-<script src="js/lightcase.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="js/aosinit.js"></script>
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD14Gvo0zdGUSRW_0To-wnFvDmbsURunHo&callback=initMap&libraries=places,geometry&solution_channel=GMP_QB_locatorplus_v4_cABD"
-    async defer></script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/handlebars/4.7.7/handlebars.min.js"></script>
+    <!-- CurveUp -->
+    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="102"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+    </svg>
 
+    <!-- CurveDown -->
+    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+    </svg>
+
+    <!-- Work Section -->
+    <div class="wrap grey recent-wrap" id="work">
+        <section class="grid grid-pad">
+
+            <p style="font-size: 2.5em; color: red; line-height: 1em; font-weight: 600;"><a href="fll.html"><u>Check out our FLL Robotics team!</u></a>
+            <br>
+
+            <!-- <p style="font-size: 2.5em; color: red; line-height: 1.2em; font-weight: 400; font-size: 1em;">
+                Bridgewater center only. More information in FLL section below.</p> -->
+
+            <h2>All Programs & Camps</h2>
+
+            <div class="col-1-1 mix">
+                <ul class="filters">
+                    <li class="filter active" data-filter="all">All</li>
+                    <!-- <li class="filter" data-filter=".summer">Summer Camps</li> -->
+                    <li class="filter" data-filter=".year">Year Round</li>
+                    <li class="filter" data-filter=".other">Other</li>
+                </ul>
+            </div>
+
+            <div class="portfolio-items">
+
+                <div class="col-1-3 mix year">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/create"><img src="images/work/Create.png"
+                                    alt=""></a>
+                            <div class="overlay">
+                                <span>Fun & Flexible Coding Education! Our fun program lets kids ages 7-14 learn to
+                                    code
+                                    year-round at their own pace! Drop-in at your convenience during weeknight and
+                                    weekend hours. </span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/create"><u>Create
+                                            Program</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix year">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/jr"><img src="images/work/Jrs.png"
+                                    alt=""></a>
+                            <div class="overlay">
+                                <span> Builds a foundation of coding for kids
+                                    ages 5-7 through our visual curriculum – no reading required!
+
+                                    We combine storytelling & game building with hands-on
+                                    projects for an immersive education experience. </span>
+                                <h2><a class="img-wrap" href="https://www.codeninjas.com/nj-bridgewater/jr"><u>Create
+                                            Jr.
+                                            Program</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix year">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/parents-night-out"><img
+                                    src="images/work/PNO.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Drop off your kids at Code Ninjas, where they'll play games, assemble puzzles,
+                                    build robotics, and more!
+
+                                    Once you've had a chance to unwind, swing by to pick them up and hear about
+                                    all the fun they've had! </span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/parents-night-out"><u>Parents
+                                            Night Out</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix other">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a
+                                href="https://raw.githubusercontent.com/codeninjashillsborough/codeninjashillsborough.github.io/main/images/work/girlscoutsinfo.png"><img
+                                    src="images/work/girlsstem.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Earn your next STEM Badge with Code Ninjas! For all girl scouts, learn about
+                                    topics such as ethical coding, robotics, and cybersecurity. Contact us to learn
+                                    more!
+                                </span>
+                                <h2><a class="img-wrap"
+                                        href="https://raw.githubusercontent.com/codeninjashillsborough/codeninjashillsborough.github.io/main/images/work/girlscoutsinfo.png"><u>Girl
+                                            Scout Badges</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix other">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/request-information"><img
+                                    src="images/work/Python.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Learn more about one of the biggest and most versatile programming languages
+                                    of
+                                    our century! Led by award-winning senseis well-versed with Python. Contact us to
+                                    enroll now!
+                                </span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/request-information"><u>Python
+                                            Camp</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix other">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/request-information"><img
+                                    src="images/work/privateclasses.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Interested in learning more about a specific topic? Private classes run a
+                                    full-week summer camp over a 5-week course. Otherwise, learn more about topics
+                                    not
+                                    included in our curriculum, such as Java, Python, and more!
+                                </span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/request-information"><u>Private
+                                            Classes</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix other">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/request-information"><img
+                                    src="images/work/daycamp.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Typically held on holidays, day camps are a great way to learn more about a
+                                    specific topic, ranging from Minecraft and Roblox to Robotics. At this time, we
+                                    do
+                                    not have any day camps planned in the near future.</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/request-information"><u>Day
+                                            Camp</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix other">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="fll.html"><img src="images/work/FLL.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Typically held on holidays, day camps are a great way to learn more about a
+                                    specific topic, ranging from Minecraft and Roblox to Robotics. At this time, we
+                                    do
+                                    not have any day camps planned in the near future.</span>
+                                <h2><a class="img-wrap" href="fll.html"><u>Day
+                                            Camp</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/code-your-own-arcade"><img
+                                    src="images/work/Code_Your_Own_Arcade.png" alt=""></a>
+                            <div class="overlay">
+                                <span>If you love retro arcade games, then this is the camp for you! Enhance your
+                                    programming by remaking classic games and then bring them to life on your own
+                                    handheld gaming device to share with friends!</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/code-your-own-arcade"><u>Code
+                                            Your Own Arcade</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/code-your-own-cartoons"><img
+                                    src="images/work/Code_Your_Own_Cartoons.png" alt=""></a>
+                            <div class="overlay">
+                                <span>It’s time to unleash your creativity and express yourself as a master storyteller.
+                                    Throughout this camp you will learn to code your own animations and imaginative
+                                    stories!</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/code-your-own-cartoons"><u>Code
+                                            Your Own Cartoons</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/program-and-play-python"><img
+                                    src="images/work/Program_and_Play-in_Python.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Let’s build something cool in Python! Boost your coding skills while creating an
+                                    awesome game to share with the world in this exciting crash course on the Python
+                                    programming language!</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/program-and-play-python"><u>Program
+                                            and Play in Python</u>
+                                    </a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/stop-motion-animation"><img
+                                    src="images/work/Stop_Motion_Animation.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Tap into the incredible world of Stop Motion Animation and learn techniques from
+                                    the ground up to create your own movies! Use media such as clay, LEGO® Minifigures,
+                                    pipe cleaner creatures, and more!</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/stop-motion-animation"><u>Stop
+                                            Motion Animation</u>
+                                    </a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/intro-to-roblox-development"><img
+                                    src="images/work/Intro_to_Roblox_Development.png" alt=""></a>
+                            <div class="overlay">
+                                <span>If you love Roblox and want to get started with building your own games, this camp
+                                    is for you! You will learn the basics of game building in your own 3D Roblox worlds.
+                                    No experience required.</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/intro-to-roblox-development"><u>Intro
+                                            to Roblox Development</u>
+                                    </a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/lext-level-roblox-development"><img
+                                    src="images/work/Next_Level_Roblox_Development.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Spark your imagination and explore game concepts by digging deeper into the game
+                                    making side of Roblox, including writing scripts in Lua – the programming language
+                                    of Roblox!</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/lext-level-roblox-development"><u>Next
+                                            Level Roblox Development</u>
+                                    </a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/become-a-youtuber"><img
+                                    src="images/work/Become_a_Youtuber.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Let's create a YouTube Channel! Join us to develop your YouTuber skills and work
+                                    in a team in order to create and customize a shared YouTube channel complete with
+                                    unique channel art, video thumbnails, uploads, and more! </span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/become-a-youtuber"><u>Become
+                                            a YouTuber</u>
+                                    </a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/modding-with-minecraft"><img
+                                    src="images/work/Modding_with_Minecraft.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Attention advanced Minecraft® players! Learn how to make your own mods with custom
+                                    textures, weapons, armor, enemies, and more.</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/modding-with-minecraft"><u>Modding
+                                            with Minecraft</u>
+                                    </a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/moviemaking-with-minecraft"><img
+                                    src="images/work/Moviemaking_with_Minecraft.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Attention all Minecraft® creators! Take your Creative Mode skills to a new level
+                                    as you shift your imagination into high gear. Learn how to build epic scenes, tell
+                                    stories, and record videos in your own Minecraft® world.</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/moviemaking-with-minecraft"><u>Moviemaking
+                                            with Minecraft</u>
+                                    </a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/code-you-own-robot-in-minecraft"><img
+                                    src="images/work/Code_Your_Own_Robot_in_Minecraft.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Attention Minecraft® masters! Learn how to use code to control a virtual robot in
+                                    Minecraft®. You can even program it to complete all of the boring tasks in
+                                    Minecraft® for you…That’s right! Teach your robots to dig, farm, build, and
+                                    more.</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/code-you-own-robot-in-minecraft"><u>Code
+                                            Your Own Robot in Minecraft</u>
+                                    </a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix summer">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.codeninjas.com/nj-bridgewater/camps/intro-to-web-development"><img
+                                    src="images/work/Intro_to_Web_Development.png" alt=""></a>
+                            <div class="overlay">
+                                <span>Are you ready to build your own website? During this camp you will gain a
+                                    foundational understanding of HTML and CSS as you create and present your very own
+                                    website and fan page!</span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.codeninjas.com/nj-bridgewater/camps/intro-to-web-development"><u>Intro
+                                            to Web Development</u>
+                                    </a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="mobileHide">
+                    <img style="padding-top: 40px" src="images/work/bwCampSched.png" alt="Bridewater Camp Schedule"
+                        width="70%" height="70%">
+                </div>
+
+                <div class="computerHide">
+                    <img style="padding-top: 20px" src="images/work/bwCampSched_cut.png" alt="Bridewater Camp Schedule"
+                        width="90%" height="90%">
+                </div> -->
+
+            </div>
+        </section>
+        <h5> To see some of the amazing projects that Code Ninjas graduates have made across the country, click <a
+                href="https://forms.codeninjas.com/blackbeltninjas"><u>here!</u></a>
+        </h5>
+    </div>
+    <!-- End Work Section -->
+
+    <!-- CurveUp -->
+    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+    </svg>
+
+    <!-- Quotes Section -->
+    <div class="wrap services-wrap">
+        <section class="grid grid-pad">
+            <div class="col-1-1 service-box cl-client-carousel-container">
+                <div class="content">
+                    <div class="cl-client-carousel">
+
+                        <div class="item client-carousel-item">
+                            <div class="quotes-icon">
+                                <i class="icon-quotes-left"></i>
+                            </div>
+                            <p>Code Ninjas created a learning opportunity specifically focused on the tech skills my
+                                daughter's interested in. She loves it and we couldn't ask for more!</p>
+                            <h4>A.R., Bridgewater</h4>
+                        </div>
+
+                        <div class="item client-carousel-item">
+                            <div class="quotes-icon">
+                                <i class="icon-quotes-left"></i>
+                            </div>
+                            <p> It's great the children can move along at their own speed. I like that they learn a
+                                variety of coding software. The children can also do camps that focus on specific
+                                programs. My son really enjoys the camps. Thank you "Code Ninjas"!!</p>
+                            <h4>Erica R., Bridgewater</h4>
+                        </div>
+
+                        <div class="item client-carousel-item">
+                            <div class="quotes-icon">
+                                <i class="icon-quotes-left"></i>
+                            </div>
+                            <p> I have a child who has been attending the Create program for a year now. We have been
+                                very pleased with the flexibility of the business owner and the expertise of the
+                                Sensei's who oversee the programs.</p>
+                            <h4>J.S., Belle Mead</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- End Quotes Section -->
+
+    <!-- CurveDown -->
+    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+    </svg>
+
+    <!-- CurveUp -->
+    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="150"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+    </svg>
+
+    <!-- Pricing Section -->
+    <div class="wrap" id="pricing">
+        <div class="grid grid-pad">
+            <div class="content">
+                <div class="col-1-1">
+                    <section id="price-tables">
+                        <h2>Program Pricing</h2>
+                        <ul id="plans">
+                            <li class="plan">
+                                <ul class="plan-wrap">
+                                    <li class="title">
+                                        <h2>Jr. Program</h2>
+                                    </li>
+                                    <li class="price">
+                                        <p>$199/mo</p>
+                                    </li>
+                                    <li>
+                                        <ul class="options">
+                                            <li>Ages 5 to 7</li>
+                                            <li>1 Hour Weekly</li>
+                                            <li>.</li>
+                                            <li><span>Custom Code Ninjas Curriculum</span></li>
+                                            <li><span>ScratchJR, Ninja Circuits</span></li>
+                                            <li><span>Engaging and Fun!</span></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="btn btn-price"
+                                            href="https://registration.codeninjas.com/cn-nj-bridgewater/?facilityProgramGuid=e8af752a-9709-4cbf-ab6e-1f867fb59c97&fullDay=False&appSource=1">Enroll
+                                            Now!</a></li>
+                                </ul>
+                            </li>
+                            <li class="plan best-plan">
+                                <ul class="plan-wrap">
+                                    <li class="title">
+                                        <h2 class="best-plan-title">Create</h2>
+                                    </li>
+                                    <li class="price">
+                                        <p class="best-plan-price">$275/mo*</p>
+                                    </li>
+                                    <li>
+                                        <ul class="options">
+                                            <li>Ages 7 to 15</li>
+                                            <li>2 Hours Weekly</li>
+                                            <li>.</li>
+                                            <li>.</li>
+                                            <li>.</li>
+                                            <li><span>Scratch, JavaScript, Roblox, Unity</span></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="btn btn-price btn-best-plan"
+                                            href="https://registration.codeninjas.com/cn-nj-bridgewater/?facilityProgramGuid=3c376195-5a39-4568-832a-4e9ce2b59064&fullDay=False&appSource=1">Enroll
+                                            Now!</a></li>
+                                </ul>
+                            </li>
+                            <li class="plan">
+                                <ul class="plan-wrap">
+                                    <li class="title">
+                                        <h2
+                                            style="font-size: 1.4em;line-height: .9em;padding-bottom:20px; padding-left: 5px; padding-right: 5px;">
+                                            Parent's Night Out</h2>
+                                    </li>
+                                    <li class="price">
+                                        <p>$49/ea</p>
+                                    </li>
+                                    <li>
+                                        <ul class="options">
+                                            <li>Ages 7 to 15</li>
+                                            <li>5:30pm-8:30pm <span>Saturdays</span></li>
+                                            <li>Includes drinks & pizza</span></li>
+                                            <li><span>Varying themes</span></li>
+                                            <li><span>e.g. Minecraft, Roblox, Star Wars</span></li>
+                                            <li><span>Video games and STEM fun!</span></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="btn btn-price"
+                                            href="https://www.codeninjas.com/nj-bridgewater/parents-night-out">View
+                                            Events!
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li class="plan">
+                                <ul class="plan-wrap">
+                                    <li class="title">
+                                        <h2>Private Tutoring</h2>
+                                    </li>
+                                    <li class="price">
+                                        <p>Varies</p>
+                                    </li>
+                                    <li>
+                                        <ul class="options">
+                                            <li>Ages 7 to 15</li>
+                                            <li>On-site or Off-site</li>
+                                            <li>Various topics of choice</li>
+                                            <li><span>ex: JavaScript, Python, Java</span></li>
+                                            <li><span>Minecraft Modding</span></li>
+                                            <li><span>Video recording & editing</span></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="btn btn-price"
+                                            href="https://www.codeninjas.com/nj-bridgewater/general/request-information">Contact
+                                            Us!</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <p id="centeringText">* <b style="font-weight: 800">10% discount for additional siblings.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Pricing Section -->
+
+    <!-- CurveDown -->
+    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+    </svg>
+
+
+
+    <!-- Pricing Section -->
+    <div class="wrap" id="promotions">
+        <div class="grid grid-pad">
+            <div class="content">
+                <div class="col-1-1">
+                    <section id="price-tables">
+                        <h2>Promotions</h2>
+                        <ul id="plans">
+                            <li class="plan">
+                                <ul class="plan-wrap">
+                                    <li class="title">
+                                        <h2>Founding Families</h2>
+                                    </li>
+                                    <li class="price">
+                                        <p>$249/mo</p>
+                                    </li>
+                                    <li>
+                                        <ul class="options">
+                                            <li>Limited to first 50 families</li>
+                                            <li>Locked-in pricing</li>
+                                            <li>Free goody bag</li>
+                                            <li>Free Parents Night Out</li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="btn btn-price"
+                                            href="https://registration.codeninjas.com/cn-nj-bridgewater/?facilityProgramGuid=3c376195-5a39-4568-832a-4e9ce2b59064&fullDay=False&appSource=1">Enroll
+                                            Now!</a></li>
+                                </ul>
+                            </li>
+                            <li class="plan">
+                                <ul class="plan-wrap">
+                                    <li class="title">
+                                        <h2 class="title">Paid-in-full Pricing</h2>
+                                    </li>
+                                    <li class="price">
+                                        <p class="price">varies</p>
+                                    </li>
+                                    <li>
+                                        <ul class="options">
+                                            <li>3 Months: N/A</li>
+                                            <li>6 Months: $1,375 ($229/mo)</li>
+                                            <li>12 Months: $2,500 ($209/mo)</li>
+                                            <li>Month to Month: $249/mo</li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="btn btn-price"
+                                            href="https://registration.codeninjas.com/cn-nj-bridgewater/?facilityProgramGuid=3c376195-5a39-4568-832a-4e9ce2b59064&fullDay=False&appSource=1">Enroll
+                                            Now!</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li class="plan">
+                                <ul class="plan-wrap">
+                                    <li class="title">
+                                        <h2 class="title">Early Bird Half-day Camp</h2>
+                                    </li>
+                                    <li class="price">
+                                        <p>$299</p>
+                                    </li>
+                                    <li>
+                                        <ul class="options">
+                                            <li>AM or PM session</li>
+                                            <li>$50 Discount</li>
+                                            <li>Bring your own snack</li>
+                                            <li><b>Expires soon!</b></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="btn btn-price"
+                                            href="https://www.codeninjas.com/nj-bridgewater/create">View
+                                            Events!
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li class="plan">
+                                <ul class="plan-wrap">
+                                    <li class="title">
+                                        <h2>Early Bird Full-day Camp</h2>
+                                    </li>
+                                    <li class="price">
+                                        <p>$475</p>
+                                    </li>
+                                    <li>
+                                        <ul class="options">
+                                            <li>AM and PM session</li>
+                                            <li>$220 Discount</li>
+                                            <li>Bring snacks and lunch</li>
+                                            <li><b>Expires 5/30/2022!</b></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="btn btn-price"
+                                            href="https://www.codeninjas.com/nj-bridgewater/create">Contact
+                                            Us!</a></li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </section>
+                    <p id="centeringText"><b style="font-weight: 800">Disclaimer</b>: discounts can not be combined
+                        with other discounts or offers. Must be purhcased within timeframe to qualify for price
+                        reduction.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+    </svg>
+    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+    </svg>
+
+
+    <div class="wrap grey contact" id="sponsorships">
+        <section class="grid grid-pad">
+            <br><br><br><br><br><br>
+            <h2>Sponsorships & Affiliations</h2>
+            <div class="portfolio-items">
+
+                <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.hillsborough-nj.org/resident/calendar/4374"><img
+                                    src="images/affiliations/HillsboroughFireworks.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.hillsborough-nj.org/resident/calendar/4374"><u>Hillsborough
+                                            Fireworks</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://montgomeryfireworks.org/"><img
+                                    src="images/affiliations/MontgomeryFireworks.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://montgomeryfireworks.org/"><u>Montgomery
+                                            Fireworks</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://mlkycenter.org/"><img src="images/affiliations/MLKcenter.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://mlkycenter.org/"><u>Martin Luther King Youth
+                                            Center</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.montyhacks.com/"><img src="images/affiliations/Montyhacks.png"
+                                    alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://www.montyhacks.com/"><u>MontyHacks</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://cougarrobotics.com/"><img src="images/affiliations/Team1403.png"
+                                    alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://cougarrobotics.com/"><u>Team 1403 Cougar
+                                            Robotics</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://cougarrobotics.com/women-in-stem-2/"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://cougarrobotics.com/women-in-stem-2/"><u>Team 1403 Women in STEM Panel</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://4histops.org/"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://4histops.org/"><u>Somerset County 4H</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.montgomerynj.gov/parksrec/page/about-parks-recreation"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://www.montgomerynj.gov/parksrec/page/about-parks-recreation"><u>Montgomery Recreation</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.mtsd.k12.nj.us/domain/66"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://www.mtsd.k12.nj.us/domain/66"><u>Montgomery SCPTA</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.mems47.org/public_website/index.shtml"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://www.mems47.org/public_website/index.shtml"><u>EMS Squad 47 Montgomery</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.steps-together.org/"><img src="images/affiliations/StepsTogether.png"
+                                    alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://www.steps-together.org/"><u>Steps Together</u></a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://sites.google.com/view/hillsboroughpba/home"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://sites.google.com/view/hillsboroughpba/home"><u>Hillsborough PBA 205</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.hillsborough-nj.org/departments/social-services"><img
+                                    src="images/affiliations/HillsboroughFoodPantry.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.hillsborough-nj.org/departments/social-services"><u>Hillsborough
+                                            Food Pantry</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.montgomerynj.gov/human-services/page/food-pantry"><img
+                                    src="images/affiliations/MontgomeryFoodPantry.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap"
+                                        href="https://www.montgomerynj.gov/human-services/page/food-pantry"><u>Montgomery
+                                            Food Pantry</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://safeandsoundhillsborough.org/"><img
+                                    src="images/affiliations/SafeandSound.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://safeandsoundhillsborough.org/"><u>Safe & Sound
+                                            Hillsborough</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://kidzcancorp.org/"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://kidzcancorp.org/"><u>KidzCan Corporation</u></a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://montgomerynjfbla.wixsite.com/fbla"><img src="images/work/Jrs.png"
+                                    alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://montgomerynjfbla.wixsite.com/fbla"><u>Montgomery
+                                            FBLA</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://www.facebook.com/sicmontypto/"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://www.facebook.com/sicmontypto/"><u>Montgomery
+                                            Science & Invention Convention</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://mteanj.org/"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://mteanj.org/"><u>Montgomery Township Education
+                                            Association</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://montgomerycharityfoundation.org/"><img src="images/work/Jrs.png"
+                                    alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://montgomerycharityfoundation.org/"><u>Montgomery
+                                            Charity Foundation</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://njcommissioning.org/subfest-coming-june-18th-2022/"><img
+                                    src="images/affiliations/Subfest.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap"
+                                        href="https://njcommissioning.org/subfest-coming-june-18th-2022/"><u>SubFest
+                                            NJ</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="https://sclsnj.org/"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="https://sclsnj.org/"><u>Mary Jacobs Library</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="LINK"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="LINK"><u>Meals for Heroes</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="LINK"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="LINK"><u>KidsCan Hackathon</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="col-1-3 mix">
+                    <div class="content">
+                        <div class="recent-work">
+                            <a href="LINK"><img src="images/work/Jrs.png" alt=""></a>
+                            <div class="overlay">
+                                <span> </span>
+                                <h2><a class="img-wrap" href="LINK"><u>MTSD Sp. Ed. Online Camp</u></a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+    </div>
+
+    <!-- Team Section -->
+    <div class="wrap team-wrap grey" id="team">
+        <div class="grid grid-pad">
+            <div class="content">
+                <h2>Our Team</h2>
+
+                <div class="col-1-4">
+                    <div class="content staff-content">
+                        <div class="recent-work staff-img">
+                            <div class="img-wrap staff-img">
+                                <img src="images/team/marisa.png" alt="">
+                            </div>
+                            <div class="work-info staff-info">
+                                <h5>Marisa Narula</h5>
+                                <span>Owner & Operator</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-4">
+                    <div class="content staff-content">
+                        <div class="recent-work staff-img">
+                            <div class="img-wrap staff-img">
+                                <img src="images/team/kanwar.png" alt="">
+                            </div>
+                            <div class="work-info staff-info">
+                                <h5>Kanwar Narula</h5>
+                                <span>Managing Partner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-4">
+                    <div class="content staff-content">
+                        <div class="recent-work staff-img">
+                            <div class="img-wrap staff-img">
+                                <img src="images/team/arnav.png" alt="">
+                            </div>
+                            <div class="work-info staff-info">
+                                <h5>Arnav Dashaputra</h5>
+                                <span>Asst. Center Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1-4">
+                    <div class="content staff-content">
+                        <div class="recent-work staff-img">
+                            <div class="img-wrap staff-img">
+                                <img src="images/team/sha.png" alt="">
+                            </div>
+                            <div class="work-info staff-info">
+                                <h5>Sha Hutcherson</h5>
+                                <span>Asst. Center Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Team Section -->
+
+    <!-- CurveUp -->
+    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+    </svg>
+
+    <!-- Parallax Section -->
+    <div class="map">
+        <div class="wrap">
+            <section id="cd-google-map">
+                <div id="google-container"></div>
+                <div id="cd-zoom-in"></div>
+                <div id="cd-zoom-out"></div>
+            </section>
+        </div>
+    </div>
+    <!-- End Parallax Section -->
+
+    <!-- Contact Section -->
+    <div class="wrap contact" id="contact">
+        <div class="grid grid-pad">
+            <h2>Contact</h2>
+            <div class="col-1-2">
+                <div class="content address">
+                    <button class="btnContact">
+                        <a href="https://www.codeninjas.com/nj-bridgewater/general/request-information">Request
+                            more information</a>
+                    </button>
+                    <p><br><br>Would your school's PTO or organization like more information on Code Ninjas running
+                        programs at
+                        your location? <a
+                            href="https://www.codeninjas.com/nj-bridgewater/general/request-information"><u>Contact
+                                us</u></a> today to find out more!</p>
+                    <address>
+                        <div>
+                            <div class="box-icon">
+                                <i class="icon-location"></i>
+                            </div>
+                            <span>Address:</span>
+                            <p>338 US-22, Bridgewater, NJ 08807<br>Located in the plaza with Dunkin' Donuts, Kiddie
+                                Academy, and JEI Learning Center.
+                            </p>
+                        </div>
+
+                        <div>
+                            <div class="box-icon">
+                                <i class="icon-clock"></i>
+                            </div>
+                            <span>Hours:</span>
+                            <p>Tues-Wed from 4pm to 7pm, and Sat-Sun from 10am-1pm</p>
+                        </div>
+
+                        <div>
+                            <div class="box-icon">
+                                <i class="icon-phone"></i>
+                            </div>
+                            <span>Phone:</span>
+                            <p>(908) 533-1525</p>
+                        </div>
+
+                        <div>
+                            <div class="box-icon">
+                                <i class="icon-mail"></i>
+                            </div>
+                            <span>E-mail:</span>
+                            <p>info@somersetcountycoding.com</p>
+                        </div>
+                    </address>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Section -->
+
+    <!-- CurveDown -->
+    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+        viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+    </svg>
+
+    <!-- Footer -->
+    <footer class="wrap">
+        <div class="grid grid-pad">
+            <div class="col-1-4">
+                <div class="content">
+                    <div class="footer-widget">
+                        <h3>About</h3>
+                        <div class="textwidget">
+                            <p> Code Ninjas® is the world’s largest and fastest-growing kids coding
+                                franchise, with
+                                hundreds of locations in the United States, Canada, and the United Kingdom.
+                            </p><br>
+                            <p> At our centers, kids learn to code while building their own video games.
+                                They gain
+                                problem solving, critical thinking, and STEM skills in a fun, safe, and
+                                inspiring
+                                environment. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1-4">
+                <div class="content">
+                    <div class="footer-widget">
+                        <h3>More info</h3>
+                        <div class="textwidget">
+                            <p>For more information on Code Ninjas®, check out:
+                                <br><br> <a href=https://www.codeninjas.com/about>
+                                    <u>https://www.codeninjas.com/about</u></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1-2">
+                <div class="content">
+                    <div class="footer-widget">
+                        <h3>Refund Policy</h3>
+                        <div class="textwidget">
+                            <a href=waiver.html>
+                                <u>Click here</u>
+                                <p>for our Parent Waiver, which includes our refund policies.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="social-footer">
+            <div class="grid grid-pad">
+                <div class="col-1-1">
+                    <div class="content">
+                        <div class="social-set">
+                            <a href="https://www.instagram.com/codeninjasbridgewater"><i class="icon-instagram"></i></a>
+                            <a href="https://www.facebook.com/CodeNinjasBridgewater"><i class="icon-facebook"></i></a>
+                            <a href="https://www.linkedin.com/company/codeninjasbridgewater/"><i
+                                    class="icon-linkedin2"></i></a>
+                            <!-- <a href="https://www.youtube.com/channel/UCFxYRG56NXOT_ymWT_N0-iw"><i
+                                    class="icon-youtube"></i></a> -->
+                        </div>
+                        <p class="source-org copyright">© 2022 | All Rights Reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div class="loader-overlay">
+        <div class="loader">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/lightcase.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aosinit.js"></script>
 </body>
 
 </html>
