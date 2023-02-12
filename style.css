@@ -114,6 +114,10 @@ h6 {
   line-height: .5em;
 }
 
+.infoText {
+  line-height: 2em;
+}
+
 blockquote {
   line-height: 1.2em;
   display: inline-block;
