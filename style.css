@@ -589,6 +589,7 @@ blockquote p {
   z-index: -1;
   clear: both;
   background-image: url('/images/editedhome.png');
+  /*   background-image: url('/images/bg2.jpg'); */
   background-repeat: space;
   background-attachment: fixed;
   /* background-position: center center; */
